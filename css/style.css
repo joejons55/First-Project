@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box 
+    }
+    
+    body {
+    margin: 0;
+    position: relative;
+    }
+    
+    .container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btn-container {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main {
+        width: 320px;
+        height: 620px;
+        margin-top: 20px;
+        border: 10px ridge white;
+        font-size: 0;
+    }
+    
+    .cell {
+        width: 30px;
+        height: 30px;
+        border: 2px outset silver;
+        display: inline-block;
+        background-color: black;
+    }
+    .movingCell {
+        
+        background-color: brown;
+    }
+    .fixedCell {
+        background-color: green;
+    }
+    
+      .s:hover {
+        background-color: green;
+        color: white;
+      }
+    
+    
+      button {
+        background-color: black;
+        border-radius: 12px;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        margin: 10px 0;
+        font-size: 22px;
+        transition-duration: 0.4s;
+      }
+    
+      .r {
+          left: 20%;
+      }
+      .r:hover {
+        background-color: red;
+        color: white; 
+      }
