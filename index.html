@@ -50,11 +50,15 @@
         <h1>"TETRIS" GAME</h1>
     </header>
     <div class="container">
+        <div class="level">Level: <span id="level">0</span></div>
+        <div class="score">Score: <span id="score">0</span></div>
         <div class="btn-container">
-            <button class="r">Reset Game</button>
+            <button class="r">Restart Game</button>
         <button class="s">Start Game</button>
+        <button class="p">Pause Game</button>
         </div>
         <div class="main"> 
+            <div class="game-over">GAME OVER</div>
             <div class="cell"></div>
             <div class="cell movingCell"></div>
             <div class="cell fixedCell"></div>

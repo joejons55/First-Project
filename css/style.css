@@ -70,3 +70,37 @@
         background-color: red;
         color: white; 
       }
+
+      .p:hover {
+        background-color: blue;
+        color: white; 
+      }
+
+      #level {
+        color: rgb(255, 127, 127);
+        font: 700 2em/1 "Oswald", sans-serif;
+      }
+
+      #score {
+        font: 700 2em/1 "Oswald", sans-serif;
+        color: rgb(255, 127, 133);
+      }
+      .level {
+        color: rgb(255, 127, 127);
+        font: 700 2em/1 "Oswald", sans-serif;
+      }
+
+      .score {
+        font: 700 2em/1 "Oswald", sans-serif;
+        color: rgb(255, 127, 133);
+      }
+      .game-over {
+        font-size: 100px;
+        color: green;
+        text-align: center;
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
