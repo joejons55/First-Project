@@ -49,7 +49,6 @@
         color: white;
       }
     
-    
       button {
         background-color: black;
         border-radius: 12px;
@@ -63,13 +62,6 @@
         transition-duration: 0.4s;
       }
     
-      .r {
-          left: 20%;
-      }
-      .r:hover {
-        background-color: red;
-        color: white; 
-      }
 
       .p:hover {
         background-color: blue;
@@ -96,7 +88,7 @@
       }
       .game-over {
         font-size: 100px;
-        color: green;
+        color: red;
         text-align: center;
         display: none;
         position: absolute;
