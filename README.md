@@ -53,5 +53,4 @@ function rotation() {
   }
 
 
-
-Check out my game here ---> tetris-game-vladomel.netlify.app
+[Check out my game here!!!(https://tetris-game-vladomel.netlify.app]
