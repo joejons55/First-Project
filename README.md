@@ -51,3 +51,7 @@ function rotation() {
       mainFigure.shape = prevTetroState;
     }
   }
+
+
+
+Check out my game here ---> tetris-game-vladomel.netlify.app
